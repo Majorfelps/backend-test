@@ -1,8 +1,3 @@
-Perfeito, Michael! Aqui está o `README.md` prontinho e no capricho, seguindo a tradição de deixar tudo claro, organizado e funcional pra quem for rodar o backend com Prisma, Node.js e Postgres. Você pode colocar este arquivo na raiz do seu diretório `backend`.
-
----
-
-```markdown
 # 🚀 Backend - CRUD com Node.js, Express, Prisma e PostgreSQL
 
 Este projeto é um exemplo de backend para um CRUD de usuários, utilizando **Node.js**, **Express**, **Prisma ORM** e **PostgreSQL**. Ele está estruturado com foco em organização e boas práticas, separado em `controllers`, `services`, `routes` e conexão via `Prisma Client`.
@@ -10,6 +5,7 @@ Este projeto é um exemplo de backend para um CRUD de usuários, utilizando **No
 ---
 
 ## 📁 Estrutura do Projeto
+
 ```
 
 /backend
@@ -23,7 +19,7 @@ Este projeto é um exemplo de backend para um CRUD de usuários, utilizando **No
 │ ├── /prisma
 │ └── server.js
 
-````
+```
 
 ---
 
@@ -54,7 +50,7 @@ Este projeto é um exemplo de backend para um CRUD de usuários, utilizando **No
 ```bash
 git clone https://github.com/seuusuario/seuprojeto.git
 cd seuprojeto/backend
-````
+```
 
 ### 2. Instale as dependências
 
@@ -141,7 +137,3 @@ Desenvolvido por Michael Cruz
 ---
 
 Com fé, café e código limpo, bora construir o futuro! 🚀
-
-```
-
-```
