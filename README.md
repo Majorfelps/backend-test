@@ -50,13 +50,13 @@ Este projeto é um exemplo de backend para um CRUD de usuários, utilizando **No
 
 ### 1. Clone o repositório
 
-git clone https://github.com/Majorfelps/teste-fullstack.git
+`git clone https://github.com/Majorfelps/teste-fullstack.git`
 
-cd seuprojeto/backend
+`cd seuprojeto/backend`
 
 ### 2. Instale as dependências
 
-npm install
+`npm install`
 
 ## 🔐 Configuração do Banco de Dados
 
@@ -80,11 +80,11 @@ localhost e 5432 conforme sua config local
 
 ### 1. Inicialize o Prisma e crie a migração
 
-npx prisma migrate dev --name init
+`npx prisma migrate dev --name init`
 
 ▶️ Execução do Servidor
 
-npm run dev
+` npm run dev`
 
 O servidor estará rodando em: http://localhost:3001
 
@@ -102,7 +102,7 @@ DELETE /users/id → Deleta um usuário
 
 ## 🧪 Dica Extra: Visualize dados com o Prisma Studio
 
-npx prisma studio
+` npx prisma studio`
 
 Abre uma interface gráfica para visualizar, editar e excluir dados direto do navegador.
 

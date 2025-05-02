@@ -33,7 +33,7 @@ async function update(req, res) {
 async function destroy(req, res) {
   try {
     await userService.deleteUser(req.params.id);
-    res.status(200).json({ text: "Usuário deletado com sucesso" });
+    res.status(204).send();
   } catch (err) {
     res.status(400).json({ error: "Erro ao deletar usuário" });
   }
